@@ -9,22 +9,22 @@ End Date:
 
 ## Architecture Diagram
 
-   User
+User
  
-     │
+│
 
-     ▼
+▼
 
- Route 53 (DNS)
+Route 53 (DNS)
   
-     │
+│
 
-     ▼
+▼
 
 CloudFront (CDN + HTTPS)
  
-     │
+│
 
-     ▼
+▼
 
 Amazon S3 (Static Website Files)
